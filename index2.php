@@ -83,9 +83,9 @@ $rex->setLocale("en");
 $stooped->setLocale("en");
 $murka->setLocale("en");
 
-// echo $rex->getBreed() . " " . $rex->getName() . " says " . $rex->makeSound() . "\n";
-// echo $stooped->getBreed() . " " . $stooped->getName() . " says " . $stooped->makeSound() . "\n";
-// echo $murka->getBreed() . " " . $murka->getName() . " says " . $murka->makeSound() . "\n";
+echo $rex->getBreed() . " " . $rex->getName() . " says " . $rex->makeSound() . "\n";
+echo $stooped->getBreed() . " " . $stooped->getName() . " says " . $stooped->makeSound() . "\n";
+echo $murka->getBreed() . " " . $murka->getName() . " says " . $murka->makeSound() . "\n";
 
 // Ожидаемый результат работы программы
 // Labrador Rex says Woof
